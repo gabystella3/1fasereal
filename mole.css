@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("t.png");
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(228, 151, 63);
+    text-shadow: 0 0 50px aliceblue;
+}
+
+#board {
+    width: 640px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(".");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.tile {
+    position: relative;
+    width: 190px;
+    height: 200px;
+    background-image: url("./d.png");
+    background-size: cover;
+    margin: 5px;
+    vertical-align: top;
+}
+
+.word-container {
+    position: absolute;
+    bottom: 110px; 
+    left: 15px;
+    right: 15px;
+    text-align: center;
+}
+.palavra-correta, .palavra-incorreta {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  }
+  
